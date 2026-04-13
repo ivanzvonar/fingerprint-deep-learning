@@ -4,7 +4,6 @@ Model 1 - General CNN Fingerprint Classifier
 Classifies fingerprints as "Real" or "Altered" regardless of finger type.
 
 Dataset: SOCOFing (Sokoto Coventry Fingerprint Dataset)
-Author: Ivan Zvonar
 """
 
 import os
