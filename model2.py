@@ -5,7 +5,6 @@ Trains a separate CNN model for each finger (thumb, index, middle, ring, little)
 Includes stronger augmentation and early stopping.
 
 Dataset: SOCOFing (Sokoto Coventry Fingerprint Dataset)
-Author: Ivan Zvonar
 """
 
 import os
