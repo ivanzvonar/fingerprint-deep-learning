@@ -1,13 +1,8 @@
-# 🔍 Latent Fingerprint Analysis Using Deep Learning
-
-> **Bachelor's Thesis** — Faculty of Organization and Informatics, University of Zagreb  
-> **Author:** Ivan Zvonar  
-> **Mentor:** Prof. dr. sc. Petra Grd  
-> **Year:** 2025
+# Latent Fingerprint Analysis Using Deep Learning
 
 ---
 
-## 📋 Overview
+## Overview
 
 This project investigates the application of **deep learning techniques** for analyzing **latent fingerprints** using Convolutional Neural Networks (CNN). Latent fingerprints are often of poor quality, which makes identification with classical methods difficult.
 
@@ -17,7 +12,7 @@ Two CNN models were developed:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 fingerprint-deep-learning/
@@ -37,7 +32,7 @@ fingerprint-deep-learning/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 The project uses the **Sokoto Coventry Fingerprint Dataset (SOCOFing)**:
 
@@ -64,7 +59,7 @@ The project uses the **Sokoto Coventry Fingerprint Dataset (SOCOFing)**:
 
 ---
 
-## 🧠 Models
+## Models
 
 ### Model 1 — General Classifier
 
@@ -102,7 +97,7 @@ Trains a **separate CNN model for each finger** with stronger augmentation and e
 
 ---
 
-## 📊 Results
+## Results
 
 ### Model 1 — Overall Performance
 
@@ -131,7 +126,7 @@ Trains a **separate CNN model for each finger** with stronger augmentation and e
 
 ---
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 
 ### Requirements
 
@@ -168,7 +163,7 @@ python src/model2.py
 
 ---
 
-## 🔬 Key Concepts
+## Key Concepts
 
 | Term | Description |
 |---|---|
@@ -182,19 +177,3 @@ python src/model2.py
 | **Early Stopping** | Stops training when validation loss stops improving |
 
 ---
-
-## 📚 References
-
-1. D. Maltoni, D. Maio, A. K. Jain, S. Prabhakar — *Handbook of Fingerprint Recognition*
-2. A. K. Jain, A. A. Ross, K. Nandakumar — *Introduction to Biometrics*, 2016
-
----
-
-## 🏫 Academic Context
-
-| | |
-|---|---|
-| Institution | University of Zagreb, Faculty of Organization and Informatics |
-| Study program | Organizacija poslovnih sustava |
-| Level | Bachelor's thesis |
-| Location | Varaždin, Croatia |
