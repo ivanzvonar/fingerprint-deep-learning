@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Dataset (too large for git)
+Dataset/
+*.bmp
+
+# Trained models
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# Results images (optional — remove lines below to track them)
+# results/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
