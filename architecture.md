@@ -12,37 +12,37 @@ Both models share the same core CNN architecture — the key difference is the s
                          │
 ┌────────────────────────▼────────────────────────────────┐
 │              CONV BLOCK 1                               │
-│   Conv2D(32 filters, 3×3) → ReLU → MaxPooling(2×2)     │
+│   Conv2D(32 filters, 3×3) → ReLU → MaxPooling(2×2)      │
 │   Extracts: edges, basic textures                       │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
 │              CONV BLOCK 2                               │
-│   Conv2D(64 filters, 3×3) → ReLU → MaxPooling(2×2)     │
+│   Conv2D(64 filters, 3×3) → ReLU → MaxPooling(2×2)      │
 │   Extracts: ridge patterns, local structures            │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
 │              CONV BLOCK 3                               │
-│   Conv2D(128 filters, 3×3) → ReLU → MaxPooling(2×2)    │
+│   Conv2D(128 filters, 3×3) → ReLU → MaxPooling(2×2)     │
 │   Extracts: minutiae, bifurcations, complex patterns    │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
 │                    FLATTEN                              │
-│         Converts 3D feature maps → 1D vector           │
+│         Converts 3D feature maps → 1D vector            │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
 │              FULLY CONNECTED                            │
-│   Dense(128)* → ReLU → Dropout(0.5)                    │
-│   *Model 2 uses Dense(256)                             │
+│   Dense(128)* → ReLU → Dropout(0.5)                     │
+│   *Model 2 uses Dense(256)                              │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
 │                  OUTPUT LAYER                           │
-│         Dense(2) → Softmax                             │
-│         Classes: [Real=0, Altered=1]                   │
+│         Dense(2) → Softmax                              │
+│         Classes: [Real=0, Altered=1]                    │
 └─────────────────────────────────────────────────────────┘
 ```
 
