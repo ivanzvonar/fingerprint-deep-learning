@@ -1,4 +1,4 @@
-# 📊 Results
+# Results
 
 ## Model 1 — General Classifier
 
