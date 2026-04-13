@@ -1,4 +1,4 @@
-# Results
+# 📊 Results
 
 ## Model 1 — General Classifier
 
@@ -49,7 +49,7 @@ Test Accuracy for middle: 0.90
 EER: 0.1532 | GAR: 0.8459 | FAR: 0.1532 | FRR: 0.1541
 ```
 
-### Ring Finger Best result
+### Ring Finger ⭐ Best result
 ```
 70/70 ── 1s 18ms/step - accuracy: 0.9027 - loss: 0.2053
 Test Accuracy for ring: 0.90
